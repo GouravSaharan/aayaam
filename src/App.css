@@ -1,0 +1,23 @@
+#root { 
+  margin: auto; 
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
