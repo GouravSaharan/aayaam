@@ -1,9 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import React from 'react';
 
 import Navbar from './components/navbar';
 import ContactUs from './components/contact-us';
 import Home from './components/home';
+import MemberSection from './components/MemberSection';
 import AboutUs from './components/about-us';
 import Footer from './components/footer';
 
@@ -41,6 +43,7 @@ function App() {
           }
         />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="MemberSection" element={<MemberSection />} />
       </Routes>
       <Footer/>
     </Router>
