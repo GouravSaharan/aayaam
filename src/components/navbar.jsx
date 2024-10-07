@@ -28,6 +28,9 @@ function Navbar() {
     const handleNavItemClick = (page) => {
         if (page === "Contact Us") {
             navigate('/contact-us');
+        } 
+        else if (page === "Members") {
+            navigate('/MemberSection');
         } else {
             navigate('/');
             const element = document.getElementById(page.replace(/\s+/g, '-').toLowerCase());
